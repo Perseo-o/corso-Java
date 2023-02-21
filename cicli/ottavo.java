@@ -7,7 +7,7 @@ public class ottavo {
        
         Integer numeri[] = {1,2,3,4,5,6,0};
         String[] stringhe= {"a","b","c","d","e","f","g"};
-        String scelta1, scelta2, scelta3, exit="";
+        String scelta1, scelta2, scelta3, exit="continua";
         Scanner sceltaP = new Scanner(System.in);
         Scanner sceltaS = new Scanner(System.in);
         Scanner sceltaCambio = new Scanner(System.in);
@@ -63,7 +63,7 @@ public class ottavo {
             }else{
                 exit="uscita";
             }
-        }while(exit.equals("uscita"));
+        }while(exit.equals("continua"));
 
     }
 
