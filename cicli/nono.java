@@ -1,6 +1,6 @@
 package cicli;
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 public class nono {
     public static void main(String[] args) {
@@ -19,10 +19,9 @@ public class nono {
 
 
         
-        String scelta1, scelta2, scelta3, exit="continua";
+        String scelta1, scelta2, exit="continua";
         Scanner sceltaP = new Scanner(System.in);
         Scanner inserD = new Scanner(System.in);
-        Scanner sceltaCambio = new Scanner(System.in);
         int x=0;
             do{
 
@@ -89,14 +88,16 @@ public class nono {
                 default:
                     exit="uscita";
                 break;
+            }
                 System.out.println(nomi.get(x));
                 System.out.println(password.get(x));
                 System.out.println(eta.get(x));
                 
             }while(exit.equals("continua"));
-        }
-    
+        sceltaP.close();
+        inserD.close();
     }
-
-
+    
 }
+
+
