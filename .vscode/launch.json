@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ninth",
+            "request": "launch",
+            "mainClass": "Ninth",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch autenticazione",
+            "request": "launch",
+            "mainClass": "autenticazione",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch calcolatrice",
+            "request": "launch",
+            "mainClass": "calcolatrice",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch cicloInizi",
+            "request": "launch",
+            "mainClass": "cicli.cicloInizi",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch cosa",
+            "request": "launch",
+            "mainClass": "cicli.cosa",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch menu",
+            "request": "launch",
+            "mainClass": "cicli.menu",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch menuEsame",
+            "request": "launch",
+            "mainClass": "cicli.menuEsame",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch quarto_cicli",
+            "request": "launch",
+            "mainClass": "cicli.quarto_cicli",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch quinto",
+            "request": "launch",
+            "mainClass": "cicli.quinto",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch sesto",
+            "request": "launch",
+            "mainClass": "cicli.sesto",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch classeControllori",
+            "request": "launch",
+            "mainClass": "classeControllori",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch esercizio",
+            "request": "launch",
+            "mainClass": "esercizio",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch eserciziodel14",
+            "request": "launch",
+            "mainClass": "eserciziodel14",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch esperimenti",
+            "request": "launch",
+            "mainClass": "esperimenti",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch primo",
+            "request": "launch",
+            "mainClass": "fibonacci.primo",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch informazioni",
+            "request": "launch",
+            "mainClass": "informazioni",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch nono",
+            "request": "launch",
+            "mainClass": "nono",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch operazioniMath",
+            "request": "launch",
+            "mainClass": "operazioniMath",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pariDispari",
+            "request": "launch",
+            "mainClass": "pariDispari",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch primo(1)",
+            "request": "launch",
+            "mainClass": "primo",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "Launch undicesimo",
+            "request": "launch",
+            "mainClass": "undicesimo",
+            "projectName": "corso-Java_5b395a3b"
+        }
+    ]
+}

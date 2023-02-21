@@ -49,11 +49,12 @@ public class cosa {
                 System.out.println("il login è andatomale");
             
         }while(i<5);
-    }if(y==2){
+        }if(y==2){
 
 
         
-    }
-        inserimentoDati.close();
+        }else{
+            inserimentoDati.close();
+        }
     }
 }

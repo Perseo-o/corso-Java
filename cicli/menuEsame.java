@@ -103,6 +103,7 @@ public class menuEsame {
                                 sIngNuovo= verifica.nextLine();
                                 System.out.println("inserire prezzo");
                                 prezzoNuovoP= verifica.nextInt();
+                                System.out.println(nomeNuovoP+" "+pIngNuovo+" "+sIngNuovo+" "+sIngNuovo+" "+prezzoNuovoP+" "+dispNuovoP);
                             }
                         }else{
                             System.out.println("password errata");
