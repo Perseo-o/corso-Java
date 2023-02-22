@@ -1,0 +1,47 @@
+body {
+    background-color: #0b0a0d;
+    margin: 0;
+  }
+  
+  h1 {
+    margin: 0;
+    color:white;
+  }
+  
+  /* box */
+  
+  div.box {
+    background-color: #ffa180;
+    width: 20%;
+    height: 200px;
+    float: left;
+  }
+  
+  #box2 {
+    background-color: #3e73de;
+  }
+  
+  div.rect-2 {
+    width: 40%; 
+    background-color: #85678a;
+  }
+  
+  /* header*/
+    
+  div#header{
+    background-color: #913fe2;
+    height: 200px;
+  }
+  
+  #footer{
+    clear: both;
+    height: 200px;
+    background-color: #2e4c52;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #913fe2;
+    padding: 10px 10px;
+  }
+  
+  /* Style the header links */
