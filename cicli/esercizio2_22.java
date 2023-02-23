@@ -15,7 +15,7 @@ public class esercizio2_22 {
         password1.add(1,"qrgt");
         password1.add(2,"pppp");
         password1.add(3,"qqqq");
-        password1.add(0,"abcde");
+        password2.add(0,"abcde");
         // int, duoble, string, bool
         // e far sin che in base alla scelta in input stampi
         // col METODO TIPIZZATO GIUSTO
