@@ -9,7 +9,7 @@ public class secondo{
     public static void main(String[] args) {
         Connection conn=null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/world", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/world", "root", "3469587");
             if (conn != null) {
             System.out.println("Connesso");
             } else {
