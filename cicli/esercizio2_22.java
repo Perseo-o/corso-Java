@@ -49,6 +49,8 @@ public class esercizio2_22 {
             break;
         }
        } while (uscita==0);
+       dati.close();
+       scelta.close();
     }
 
 

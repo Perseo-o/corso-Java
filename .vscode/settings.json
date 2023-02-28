@@ -1,3 +1,7 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\marce\\OneDrive\\Desktop\\ScriptJava\\mysql-connector-j-8.0.32.jar"
+    ]
 }

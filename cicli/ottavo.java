@@ -64,7 +64,9 @@ public class ottavo {
                 exit="uscita";
             }
         }while(exit.equals("continua"));
-
+        sceltaP.close();
+        sceltaS.close();
+        sceltaCambio.close();
     }
 
 
