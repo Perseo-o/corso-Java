@@ -13,12 +13,12 @@ public class classi {
             selezione=myOb.nextInt();
             switch(selezione){
                 case 1:
-                    Motori mot=new Motori();
+                    //Motori mot=new Motori();
                     System.out.println("inserire numero pastiglie");
                     selezione=myOb.nextInt();
-                    Freni fre=new Freni(selezione);
-                    int tar=(int)(Math.random()*11000);
-                    Macchina toiota=new Macchina(mot, fre, tar);
+                    //Freni fre=new Freni(selezione);
+                    //int tar=(int)(Math.random()*11000);
+                    //Macchina toiota=new Macchina(mot, fre, tar);
                 break;
                 case 0:
                     uscita=true;
