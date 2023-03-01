@@ -1,7 +1,7 @@
 /*creare un sistema di inserimento che permetta di creare e salvare i daTI DI UN ACCOUNT
  ( nome cognome, età di tipo int obbligatoriamente, e data di nascita ) se i dati sono già presenti dovrà chiederti una 
 password per modificarli in caso contrario te li farà inserirwe */
-package fibonacci;
+
 import java.util.Scanner;
 import java.sql.Connection;
 import java.sql.DriverManager;
