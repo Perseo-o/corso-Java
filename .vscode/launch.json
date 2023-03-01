@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GestioneRistorante",
+            "request": "launch",
+            "mainClass": "GestioneRistorante",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
