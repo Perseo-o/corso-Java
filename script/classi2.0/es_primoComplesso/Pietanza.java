@@ -32,7 +32,6 @@ public class Pietanza {
 
 
 	public double getPrezzo() {
-		// TODO Auto-generated method stub
 		return prezzo;
 	}
 }

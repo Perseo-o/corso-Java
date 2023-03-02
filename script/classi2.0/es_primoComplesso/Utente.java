@@ -26,9 +26,10 @@ public class Utente {
         Random rand = new Random();
         return 100 + rand.nextDouble() * 9900;
     }
-
-    static double budgetCliente(){
-        int budget2=this.budget;
+    public double budget2=this.budget;
+    public double budgetCliente(){
+       
+    double budget2=this.budget;
         return budget2;
     }
 }
