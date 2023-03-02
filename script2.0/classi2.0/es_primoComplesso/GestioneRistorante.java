@@ -16,7 +16,7 @@ public class GestioneRistorante {
 		
 		Ristorante ristorante = new Ristorante(listaPietanze);
 		
-		System.out.println("Il tuo budget è: "+ utente.budgetCliente());
+		System.out.println("Il tuo budget è: "+ Utente.getBudget());
 		showFirstMenu(ristorante);
 		
 }	
