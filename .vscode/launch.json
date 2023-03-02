@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main_main",
+            "request": "launch",
+            "mainClass": "nonMio.main_main",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
             "name": "piattoSpeciale",
             "request": "launch",
             "mainClass": "piattoSpeciale",
