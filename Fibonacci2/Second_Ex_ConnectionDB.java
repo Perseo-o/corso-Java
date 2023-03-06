@@ -1,7 +1,6 @@
+package Fibonacci2;
+
 import java.util.Scanner;
-//import com.mysql.cj.jdbc.Driver;
-//import com.mysql.cj.protocol.Resultset;
-//import com.mysql.cj.xdevapi.PreparableStatement;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class FibonacciRicorsione {
+public class Second_Ex_ConnectionDB {
   static int n1 = 0, n2 = 1, n3, i, count = 0, sc; // variabili
   static Scanner contator = new Scanner(System.in); // scanner
   static Scanner scelta = new Scanner(System.in);
