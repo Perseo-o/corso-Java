@@ -1,4 +1,4 @@
-package classi.es_macchina;
+
 //import classi.Freni;
 //import classi.Motori;
 public class Macchina {
