@@ -10,7 +10,7 @@ public class Biblioteca {
     private ArrayList<Integer> CopieDisponibili = new ArrayList<Integer>();
     private ArrayList<Integer> CopiePrestito = new ArrayList<Integer>();
     private int x=0;
-
+    
     public void SetElencoLibri(String nuovoLibro){
         ElencoLibri.add(nuovoLibro);
         x++;
