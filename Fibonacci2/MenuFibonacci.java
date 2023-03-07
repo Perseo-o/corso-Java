@@ -17,14 +17,14 @@ public class MenuFibonacci {
             switch (sc) {
 
                 case 1:
-                    FibonacciOperations.FibonacciGenerator();
+                    FibonacciOperation.FibonacciGenerator();
                     break;
                 case 2:
-                    FibonacciOperations.FibonacciGeneratorEvenNumber();
+                    FibonacciOperation.FibonacciGeneratorEvenNumber();
                     break;
                 case 3:
                     // FibonacciFinderNmr();
-                    FibonacciOperations.FinderFibonacci();
+                    FibonacciOperation.FinderFibonacci();
                     break;
                 case 4:
                     System.out.println("Arrivederci!");

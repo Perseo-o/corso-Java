@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class ConnectionFibonacci {
 
-    // TODO: Singleton
+    
 
     // CONNESSIONE DI FIBONACCI
     // URL DATABASE FIBONACCI

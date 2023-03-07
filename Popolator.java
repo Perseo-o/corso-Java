@@ -1,4 +1,4 @@
-package Fibonacci2;
+
 import java.sql.*;
 
 public class Popolator {
