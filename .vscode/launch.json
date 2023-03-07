@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "es_Veicolo.Main",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "es_override",
+            "request": "launch",
+            "mainClass": "es_override",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
             "name": "Biblioteca",
             "request": "launch",
             "mainClass": "es_biblioteca.Biblioteca",
