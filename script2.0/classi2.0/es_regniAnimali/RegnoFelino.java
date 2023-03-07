@@ -1,15 +1,20 @@
 
-public class RegnoFelino {
-   
-    private String name;
+import java.util.ArrayList;
 
-    public void SetFelino(String name, String nome){
-        this.name=nome+" | "+name;
+public class RegnoFelino {
+
+    private ArrayList<String> nome = new ArrayList<String>();
+
+    public void SetFelino(String name, String nome) {
+        this.nome.add(name + " | " + nome);
+
     }
 
-    public String GetFelino(){
-        this.name=this.name+" | Felino";
-        return this.name;
+    public String GetFelino(int x) {
+
+        this.nome.set(x, this.nome.get(x) + " | Felino");
+        return this.nome.get(x);
+
     }
 
 }

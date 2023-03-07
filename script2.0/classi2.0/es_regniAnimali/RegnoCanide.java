@@ -1,14 +1,20 @@
 
+import java.util.ArrayList;
+
 public class RegnoCanide {
-    private String name;
 
-    public void SetCanide(String name, String nome){
-        this.name=nome+" | "+name;
+    private ArrayList<String> nome = new ArrayList<String>();
+
+    public void SetCanide(String name, String nome) {
+        this.nome.add(name + " | " + nome);
+
     }
 
-    public String GetCanide(){
-        this.name=this.name+" | Canide";
-        return this.name;
+    public String GetCanide(int x) {
+
+        this.nome.set(x, this.nome.get(x) + " | Canide");
+        return this.nome.get(x);
+
     }
-    
+
 }

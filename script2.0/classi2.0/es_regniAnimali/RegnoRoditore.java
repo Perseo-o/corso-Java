@@ -1,15 +1,20 @@
+import java.util.ArrayList;
 
 public class RegnoRoditore {
     
-    private String name;
+    private ArrayList<String> nome = new ArrayList<String>();
+    
 
     public void SetRoditore(String name, String nome){
-        this.name=nome+" | "+name;
+        this.nome.add(name+" | "+nome);
+    
     }
 
-    public String GetRoditore(){
-        this.name=this.name+" | Roditore";
-        return this.name;
+    public String GetRoditore(int x){
+        
+        this.nome.set(x,this.nome.get(x)+" | Anfibio");
+        return this.nome.get(x);
+        
     }
     
 }
