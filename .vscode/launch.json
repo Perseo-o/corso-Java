@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "es_view",
+            "request": "launch",
+            "mainClass": "es_view",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciRicorsione",
+            "request": "launch",
+            "mainClass": "FibonacciRicorsione",
+            "projectName": "corso-Java_5b395a3b"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "es_Veicolo.Main",
