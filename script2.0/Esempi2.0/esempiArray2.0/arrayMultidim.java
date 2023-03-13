@@ -1,4 +1,4 @@
-package Esempi.esempiArray;
+
 
 public class arrayMultidim {
     public static void main(String[] args) {

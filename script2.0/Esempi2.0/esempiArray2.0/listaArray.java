@@ -1,4 +1,3 @@
-package Esempi.esempiArray;
 
 import java.util.ArrayList; //importa libreria ArrayList
 import java.util.Arrays; //importa libreria Arrays

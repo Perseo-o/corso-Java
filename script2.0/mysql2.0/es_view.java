@@ -68,11 +68,17 @@ public class es_view {
             // Recupera i metadati dalla vista
             ResultSetMetaData rsmd = rs.getMetaData();
             int numColumns = rsmd.getColumnCount();
-
-            // Chiedi all'utente di inserire la città da aggiungere massimo 10 volte
+            System.out.println("Inserire il numero di città da inserire:");
+            int sceltaNCitta = scanner.nextInt();
+            if(sceltaNCitta>=10){
+                System.out.println("numero di città da inserire troppo grande numero massimo 10:");
+                sceltaNCitta=10;
+            }else{
+                System.out.println("numero di città da inserire accetato:");
+            }
             int count = 0;
-            while (count < 10) {
-                // Chiedi all'utente di inserire il nome della città da aggiungere
+            while (count < sceltaNCitta) {
+                count++;
                 System.out.println("Inserisci il nome della città:");
                 String nomeCitta = scanner.nextLine();
 
@@ -107,16 +113,8 @@ public class es_view {
                     rs.insertRow();
                     rs.moveToCurrentRow();
                     System.out.println("La città è stata aggiunta alla vista.");
-                } // Chiedi all'utente se vuole aggiungere un'altra città
-                System.out.println("Vuoi inserire un'altra città? (s/n)");
-                String risposta2 = risposta.nextLine().toLowerCase();
-                if (!risposta2.equals("s")) {
-                    break;
                 }
-                count++;
             }
-
-            // Chiudi la connessione al database
             conn.close();
             }
 

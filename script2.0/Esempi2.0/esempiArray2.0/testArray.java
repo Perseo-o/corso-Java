@@ -1,4 +1,3 @@
-package Esempi.esempiArray;
 
 public class testArray {
     public static void main(String[] args) {
